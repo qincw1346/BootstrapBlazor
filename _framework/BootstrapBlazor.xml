@@ -4888,6 +4888,11 @@
             Scroll 组件 DOM 实例
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.Scroll.IsForce">
+            <summary>
+            获得/设置 是否强制使用滚动条 默认为 true
+            </summary>
+        </member>
         <member name="M:BootstrapBlazor.Components.Scroll.OnAfterRenderAsync(System.Boolean)">
             <summary>
             OnAfterRenderAsync 方法
