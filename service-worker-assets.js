@@ -669,6 +669,10 @@
       "url": "_content\/BootstrapBlazor.Docs\/docs\/button\/button.7.html"
     },
     {
+      "hash": "sha256-e\/PKGn3V0fJFVQCRj7u0JSwv3k6+\/dLhRm7SToJvLhE=",
+      "url": "_content\/BootstrapBlazor.Docs\/docs\/button\/button.8.html"
+    },
+    {
       "hash": "sha256-RdzRVfDgcZeBpDKRgFGXTvIgJD+VsaIifjEJjz0AeKM=",
       "url": "_content\/BootstrapBlazor.Docs\/docs\/calendar\/calendar.1.html"
     },
@@ -2165,11 +2169,11 @@
       "url": "_framework\/BootstrapBlazor.Docs.dll"
     },
     {
-      "hash": "sha256-Lie1GUDFn9y86srpvQ1bGQALfWwu1KzbXiyaH3QieXI=",
+      "hash": "sha256-eKvV8mQnWeE04Lvea\/pwIlAqEU1dKc8qXN8Z7pXM+\/E=",
       "url": "_framework\/BootstrapBlazor.Shared.dll"
     },
     {
-      "hash": "sha256-9kNCbizmwqTAyWgSjBI6A6VAQnAWtQfJuT20GHJsDqk=",
+      "hash": "sha256-m41YU7\/b5+4qpHDjJQHInKm304RhffIfYXr6sCBmFlA=",
       "url": "_framework\/BootstrapBlazor.WebAssembly.ClientHost.dll"
     },
     {
@@ -2341,7 +2345,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-3OTxiCXLj0ZyMPgD2ivF2A3+gagYIJtr9DwEknRreOI=",
+      "hash": "sha256-l09dDhvq59W1ylFidZhRSZTWOQBxU1qLeluustTPeLE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -2349,5 +2353,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "ki55czYB"
+  "version": "Can9FlB0"
 };
