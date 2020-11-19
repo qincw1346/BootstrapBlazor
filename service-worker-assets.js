@@ -145,8 +145,12 @@
       "url": "_content\/BootstrapBlazor.Chart\/js\/Chart.bundle.min.js"
     },
     {
-      "hash": "sha256-WKQ24Xr4GJGrKR2VyB0eijfBWbfWPExejEdbH2F6qD0=",
+      "hash": "sha256-5ApMchkv07ZGdzwCHKll7NNSIy\/Z\/xB4RU347d0ccaY=",
       "url": "_content\/BootstrapBlazor.Shared\/css\/site.css"
+    },
+    {
+      "hash": "sha256-sH60MBNoFKn6G+hB9YfZwhMu1d84LDh81GYUZFbdbqU=",
+      "url": "_content\/BootstrapBlazor.Shared\/images\/12377@2x.png"
     },
     {
       "hash": "sha256-wwXf8ZcWxGWDJvXZ5RI4Pp\/E4Vh8s\/W1FkI4RsVMAz8=",
@@ -295,6 +299,10 @@
     {
       "hash": "sha256-haBP\/T1NFiIsuuN9l7vm9WVHPaXBFCas3gfRPkpzbeQ=",
       "url": "_content\/BootstrapBlazor.Shared\/images\/gitee.svg"
+    },
+    {
+      "hash": "sha256-MY1HAPX\/mPppzcMkm6x44FvVAwMlmG9q4alPS1emcSY=",
+      "url": "_content\/BootstrapBlazor.Shared\/images\/global.svg"
     },
     {
       "hash": "sha256-LAK+vSXveBlseFhbln0J7xfl1woqHNahHSibrOr+vrQ=",
@@ -2157,11 +2165,11 @@
       "url": "_framework\/BootstrapBlazor.Docs.dll"
     },
     {
-      "hash": "sha256-A4foEyP9T+az7TqBoDX3LV4BHc42No6kc\/3QnNvYaPU=",
+      "hash": "sha256-Lie1GUDFn9y86srpvQ1bGQALfWwu1KzbXiyaH3QieXI=",
       "url": "_framework\/BootstrapBlazor.Shared.dll"
     },
     {
-      "hash": "sha256-tyDtdxpzlVR9CRwQRzs4jHj4DWsmi7hfELO7zdcoht8=",
+      "hash": "sha256-9kNCbizmwqTAyWgSjBI6A6VAQnAWtQfJuT20GHJsDqk=",
       "url": "_framework\/BootstrapBlazor.WebAssembly.ClientHost.dll"
     },
     {
@@ -2329,11 +2337,11 @@
       "url": "_framework\/System.Text.RegularExpressions.dll"
     },
     {
-      "hash": "sha256-q4bveRft8nf3Rn\/fIESETxOuy81x1+XAi+YA5etpgsI=",
+      "hash": "sha256-0laJrjdxhUVZJz2bg\/3bpzWCqygYWRKBbBgy66jXlHg=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-NdUwtkdc9TFpyT0DvOBRSJ3ejeGVycZdewwjK6SCoQ4=",
+      "hash": "sha256-3OTxiCXLj0ZyMPgD2ivF2A3+gagYIJtr9DwEknRreOI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -2341,5 +2349,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "1mA6Q950"
+  "version": "ki55czYB"
 };
