@@ -2103,6 +2103,16 @@
             获得/设置 日期格式字符串 默认为 "yyyy-MM-dd"
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.ShowSidebar">
+            <summary>
+            获得/设置 是否显示快捷侧边栏 默认不显示
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.ShowFooter">
+            <summary>
+            获得/设置 是否显示 Footer 区域 默认为 true 显示
+            </summary>
+        </member>
         <member name="P:BootstrapBlazor.Components.DatePickerBody.TimeFormat">
             <summary>
             获得/设置 时间格式字符串 默认为 "hh\\:mm\\:ss"
@@ -2364,6 +2374,11 @@
         <member name="P:BootstrapBlazor.Components.DateTimePicker`1.ViewModel">
             <summary>
             获得/设置 组件显示模式 默认为显示年月日模式
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimePicker`1.ShowSidebar">
+            <summary>
+            获得/设置 是否显示快捷侧边栏 默认不显示
             </summary>
         </member>
         <member name="M:BootstrapBlazor.Components.DateTimePicker`1.OnInitialized">
@@ -10976,15 +10991,31 @@
             <param name="sortOrder"></param>
             <returns></returns>
         </member>
-        <member name="M:System.Linq.LambdaExtensions.Format(System.Object,System.String)">
+        <member name="M:System.Linq.LambdaExtensions.Format(System.Object,System.String,System.IFormatProvider)">
             <summary>
             任意类型格式化方法
             </summary>
             <param name="source"></param>
             <param name="format"></param>
+            <param name="provider"></param>
             <returns></returns>
         </member>
         <member name="M:System.Linq.LambdaExtensions.GetFormatLambda(System.Object)">
+            <summary>
+            获取 Format 方法的 Lambda 表达式
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Linq.LambdaExtensions.Format(System.Object,System.IFormatProvider)">
+            <summary>
+            任意类型格式化方法
+            </summary>
+            <param name="source"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Linq.LambdaExtensions.GetFormatProviderLambda(System.Object)">
             <summary>
             获取 Format 方法的 Lambda 表达式
             </summary>
