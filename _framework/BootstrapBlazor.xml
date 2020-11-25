@@ -4876,44 +4876,56 @@
             OnParametersSet 方法
             </summary>
         </member>
-        <member name="T:BootstrapBlazor.Components.RateBase">
+        <member name="T:BootstrapBlazor.Components.Rate">
             <summary>
-            Rate 组件基类
+            Rate 组件
             </summary>
         </member>
-        <member name="P:BootstrapBlazor.Components.RateBase.RateElement">
+        <member name="P:BootstrapBlazor.Components.Rate.RateElement">
             <summary>
             获得/设置 Rate DOM 元素实例
             </summary>
         </member>
-        <member name="P:BootstrapBlazor.Components.RateBase.ClassString">
+        <member name="P:BootstrapBlazor.Components.Rate.ClassString">
             <summary>
             获得 样式集合
             </summary>
         </member>
-        <member name="P:BootstrapBlazor.Components.RateBase.Value">
+        <member name="M:BootstrapBlazor.Components.Rate.GetItemClassString(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BootstrapBlazor.Components.Rate.Value">
             <summary>
             获得/设置 组件值
             </summary>
         </member>
-        <member name="P:BootstrapBlazor.Components.RateBase.ValueChanged">
+        <member name="P:BootstrapBlazor.Components.Rate.ValueChanged">
             <summary>
             获得/设置 组件值变化时回调委托
             </summary>
         </member>
-        <member name="M:BootstrapBlazor.Components.RateBase.OnAfterRenderAsync(System.Boolean)">
+        <member name="P:BootstrapBlazor.Components.Rate.OnValueChanged">
+            <summary>
+            获得/设置 组件值变化时回调委托
+            </summary>
+        </member>
+        <member name="M:BootstrapBlazor.Components.Rate.OnAfterRenderAsync(System.Boolean)">
             <summary>
             OnAfterRender 方法
             </summary>
             <param name="firstRender"></param>
             <returns></returns>
         </member>
-        <member name="M:BootstrapBlazor.Components.RateBase.Clicked(System.Int32)">
+        <member name="M:BootstrapBlazor.Components.Rate.Clicked(System.Int32)">
             <summary>
             文件上传成功后回调此方法
             </summary>
         </member>
-        <member name="M:BootstrapBlazor.Components.RateBase.Dispose(System.Boolean)">
+        <member name="M:BootstrapBlazor.Components.Rate.Dispose(System.Boolean)">
             <summary>
             Dispose 方法
             </summary>
