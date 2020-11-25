@@ -2108,6 +2108,16 @@
             获得/设置 是否显示快捷侧边栏 默认不显示
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.ShowLeftButtons">
+            <summary>
+            获得/设置 是否显示左侧控制按钮 默认显示
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.ShowRightButtons">
+            <summary>
+            获得/设置 是否显示右侧控制按钮 默认显示
+            </summary>
+        </member>
         <member name="P:BootstrapBlazor.Components.DatePickerBody.ShowFooter">
             <summary>
             获得/设置 是否显示 Footer 区域 默认为 true 显示
@@ -2171,6 +2181,11 @@
         <member name="P:BootstrapBlazor.Components.DatePickerBody.ValueChanged">
             <summary>
             获得/设置 组件值改变时回调委托供双向绑定使用
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.Ranger">
+            <summary>
+            获得/设置 是否为 Range 内使用 默认为 false
             </summary>
         </member>
         <member name="M:BootstrapBlazor.Components.DatePickerBody.OnInitialized">
@@ -2535,6 +2550,126 @@
         <member name="M:BootstrapBlazor.Components.TimePickerCell.OnClickDown">
             <summary>
             下翻页按钮调用此方法
+            </summary>
+        </member>
+        <member name="T:BootstrapBlazor.Components.DateTimeRange">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.PickerRange">
+            <summary>
+            获得 组件 DOM 实例
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.ClassString">
+            <summary>
+            获得 组件样式名称
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.BodyClassString">
+            <summary>
+            获得 组件弹窗样式名称
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.PlacementString">
+            <summary>
+            获得 组件弹窗位置
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.DateTimePickerIconClassString">
+            <summary>
+            获得 组件小图标样式
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.SelectedValue">
+            <summary>
+            获得 用户选中的时间范围
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.ClearButtonText">
+            <summary>
+            获得/设置 清空按钮文字
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.ConfirmButtonText">
+            <summary>
+            获得/设置 确定按钮文字
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.Placement">
+            <summary>
+            获得/设置 弹窗位置 默认为 Auto
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.IsShown">
+            <summary>
+            获得/设置 是否显示本组件默认为 false 不显示
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.AllowNull">
+            <summary>
+            获得/设置 是否允许为空 默认为 true
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.OnConfirm">
+            <summary>
+            点击确认按钮回调委托方法
+            </summary>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.OnInitialized">
+            <summary>
+            OnInitialized
+            </summary>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.OnAfterRenderAsync(System.Boolean)">
+            <summary>
+            OnAfterRender 方法
+            </summary>
+            <param name="firstRender"></param>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.ClickClearButton">
+            <summary>
+            点击 清除按钮调用此方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.ClickConfirmButton">
+            <summary>
+            点击 确认时调用此方法
+            </summary>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.UpdateStart(System.DateTime)">
+            <summary>
+            更新年时间方法
+            </summary>
+            <param name="d"></param>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.UpdateEnd(System.DateTime)">
+            <summary>
+            更新年时间方法
+            </summary>
+            <param name="d"></param>
+        </member>
+        <member name="M:BootstrapBlazor.Components.DateTimeRange.UpdateValue(System.DateTime)">
+            <summary>
+            更新值方法
+            </summary>
+            <param name="d"></param>
+        </member>
+        <member name="T:BootstrapBlazor.Components.DateTimeRangeValue">
+            <summary>
+            DateTimeRangeValue 对象
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRangeValue.Start">
+            <summary>
+            获得/设置 开始时间
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRangeValue.End">
+            <summary>
+            获得/设置 结束时间
             </summary>
         </member>
         <member name="T:BootstrapBlazor.Components.Dialog">
@@ -7757,6 +7892,11 @@
         <member name="P:BootstrapBlazor.Components.Table`1.OnExportAsync">
             <summary>
             获得/设置 导出按钮异步回调方法
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.Table`1.EditDialogSaveButtonText">
+            <summary>
+            获得/设置 保存弹窗中的保存按钮显示文本 默认为资源文件中的 保存
             </summary>
         </member>
         <member name="P:BootstrapBlazor.Components.Table`1.Toast">
