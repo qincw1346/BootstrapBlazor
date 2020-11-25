@@ -5038,6 +5038,11 @@
             获得/设置 组件值
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.Rate.IsDisable">
+            <summary>
+            获得/设置 是否禁用 默认为 false
+            </summary>
+        </member>
         <member name="P:BootstrapBlazor.Components.Rate.ValueChanged">
             <summary>
             获得/设置 组件值变化时回调委托
