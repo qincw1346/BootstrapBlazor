@@ -954,6 +954,17 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:BootstrapBlazor.Shared.Pages.DateTimeRanges">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BootstrapBlazor.Shared.Pages.DateTimeRanges.GetAttributes">
+            <summary>
+            获得属性方法
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:BootstrapBlazor.Shared.Pages.Dialogs">
             <summary>
             
