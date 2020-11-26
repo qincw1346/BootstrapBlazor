@@ -2183,6 +2183,16 @@
             获得/设置 组件值改变时回调委托供双向绑定使用
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.MaxValue">
+            <summary>
+            获得/设置 当前日期最大值
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DatePickerBody.MinValue">
+            <summary>
+            获得/设置 当前日期最小值
+            </summary>
+        </member>
         <member name="P:BootstrapBlazor.Components.DatePickerBody.Ranger">
             <summary>
             获得/设置 是否为 Range 内使用 默认为 false
@@ -2394,6 +2404,16 @@
         <member name="P:BootstrapBlazor.Components.DateTimePicker`1.ShowSidebar">
             <summary>
             获得/设置 是否显示快捷侧边栏 默认不显示
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimePicker`1.MaxValue">
+            <summary>
+            获得/设置 当前日期最大值
+            </summary>
+        </member>
+        <member name="P:BootstrapBlazor.Components.DateTimePicker`1.MinValue">
+            <summary>
+            获得/设置 当前日期最小值
             </summary>
         </member>
         <member name="M:BootstrapBlazor.Components.DateTimePicker`1.OnInitialized">
@@ -3988,6 +4008,11 @@
         <member name="T:BootstrapBlazor.Components.MenuItem">
             <summary>
             MenuItem 组件
+            </summary>
+        </member>
+        <member name="F:BootstrapBlazor.Components.MenuItem._items">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:BootstrapBlazor.Components.MenuItem.Parent">
