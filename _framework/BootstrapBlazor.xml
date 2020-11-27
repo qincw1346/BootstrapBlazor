@@ -2637,6 +2637,11 @@
             点击确认按钮回调委托方法
             </summary>
         </member>
+        <member name="P:BootstrapBlazor.Components.DateTimeRange.OnClearValue">
+            <summary>
+            点击情况按钮回调委托方法
+            </summary>
+        </member>
         <member name="M:BootstrapBlazor.Components.DateTimeRange.OnInitialized">
             <summary>
             OnInitialized
