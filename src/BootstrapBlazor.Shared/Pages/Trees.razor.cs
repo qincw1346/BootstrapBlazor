@@ -25,6 +25,22 @@ namespace BootstrapBlazor.Shared.Pages
 
         private Logger? TraceChecked { get; set; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        protected override async Task OnInitializedAsync()
+        {
+            await base.OnInitializedAsync();
+
+            await Task.Run(async () =>
+            {
+                await Task.Delay(2000);
+                System.Console.WriteLine(System.DateTime.Now);
+                Items = GetItems();
+            });
+        }
+
         private static IEnumerable<TreeItem> GetItems()
         {
             var ret = new List<TreeItem>
@@ -55,7 +71,7 @@ namespace BootstrapBlazor.Shared.Pages
             return ret;
         }
 
-        private IEnumerable<TreeItem> Items { get; set; } = GetItems();
+        private IEnumerable<TreeItem>? Items { get; set; } // = GetItems();
 
         private static IEnumerable<TreeItem> GetCheckedItems()
         {
